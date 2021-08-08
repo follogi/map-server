@@ -8,7 +8,7 @@ services:
     environment:
       - MS_DEBUGLEVEL=5
     volumes:
-      - ./baselayers:/var/follogi/baselayers
+      - ./baselayers:/var/s3fs/baselayers
       - ./mapserver:/etc/mapserver
 volumes:
   baselayers:

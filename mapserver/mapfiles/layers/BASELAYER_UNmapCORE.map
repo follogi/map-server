@@ -181,12 +181,12 @@
                END
                LABEL
                     PRIORITY 10
-                    COLOR 255 165 0
+                    COLOR 255 168 0
                     OUTLINECOLOR  255 255 255
                     OUTLINEWIDTH 2
                     TYPE truetype
                     #FONT "sans"
-                    SIZE 9
+                    SIZE 19
                     ANTIALIAS TRUE
                     POSITION AUTO
                     PARTIALS FALSE
