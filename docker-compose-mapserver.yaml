@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  mapserver:
+    privileged: true
+    ports:
+      - '8080:80'
+    image: follogi/mapserver
+    environment:
+      - MS_DEBUGLEVEL=5
+    volumes:
+      - ./baselayers:/var/follogi/baselayers
+      - ./mapserver:/etc/mapserver
+volumes:
+  baselayers:
+  mapserver:
