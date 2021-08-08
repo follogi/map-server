@@ -181,7 +181,7 @@
                END
                LABEL
                     PRIORITY 10
-                    COLOR 0 0 0
+                    COLOR 255 165 0
                     OUTLINECOLOR  255 255 255
                     OUTLINEWIDTH 2
                     TYPE truetype
